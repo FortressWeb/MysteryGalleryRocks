@@ -1,0 +1,36 @@
+.wsp_print_btn_left{
+    background: url('../images/shared/button/btn_left.gif') no-repeat right;
+    width: 3px;
+    height: 21px;
+}
+.wsp_print_btn_right{
+    background: url('../images/shared/button/btn_right.gif') no-repeat left;
+    width: 3px;
+    height: 21px;
+}
+.wsp_print_btn_middle{
+    background: url('../images/shared/button/btn_middle.gif') repeat-x top;
+    height: 21px;
+    cursor:pointer;
+    padding:0pt 5px;
+    text-align:center;
+    vertical-align:middle;
+    white-space:nowrap;
+}
+.wsp_print_btn_text {
+    text-decoration: none;
+    color: #000 !important;
+}
+.wsp_print_btn {
+    cursor:pointer;
+    font-family:tahoma;
+    font-size:12px;
+    font-size-adjust:none;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-size-adjust:none;
+    line-height:normal;
+    white-space:nowrap;
+    margin: 0 auto;
+}

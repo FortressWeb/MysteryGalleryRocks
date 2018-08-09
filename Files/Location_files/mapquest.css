@@ -1,0 +1,73 @@
+.map-container {
+  text-align: left;
+}
+.map-container span {
+  display: block;
+}
+.inner-map-container {
+  margin: 0 auto;
+  height: auto !important;
+  position: relative;
+}
+.inner-map-container iframe {
+  border: medium none;
+}
+.edit-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: gray;
+  opacity:0.01;
+  filter:alpha(opacity=1);
+}
+.map-container .left {
+  margin-left: 0;
+  margin-right: auto;
+}
+.map-container .right {
+  margin-right: 0;
+  margin-left: auto;
+}
+.map-container .center {
+  margin: 0 auto;
+}
+
+.directions-button {
+ width: 124px;
+ height: 34px;
+ display: block;
+ background-image:  url(../images/directions.png);
+ margin-top: 5px !important;
+}
+.map-container .map-address {
+  margin-bottom: 5px;
+}
+
+/* Disabled after updating to Google maps with directions as it already shows the address */
+.map-address {
+    display: none;
+}
+
+.map-error {
+ background-image:  url(../images/editmode.png);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-color: #C8E4FC;
+ display: block;
+}
+
+.map-loading {
+ background-image:  url(../images/loading.png);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-color: #C8E4FC;
+ display: block;
+}
+
+.directions-button{
+  width: 95px;
+  height: 20px;
+}
+

@@ -1,0 +1,148 @@
+.web_com_custom_form {
+  cursor: default;
+  text-align: left;
+  -moz-text-align: left;
+  -webkit-text-align: left;
+}
+.web_com_custom_form .help-text{
+  position: absolute;
+  border: 1px solid #888;
+  background-color: #eee;
+  color: #444;
+  padding: 3px;
+  display: block;
+}
+.web_com_custom_form .other-label-hidden,
+.web_com_custom_form .help-text-hidden{
+  display: none;
+}
+.web_com_custom_form .help_icon{
+	font-size:14pt;
+	background-position: 5px 0px;
+	background-image:url(../images/icon_help.png);
+	padding-left:5px;
+	padding-right:17px;
+  margin-bottom: 5px;
+  display: inline;
+	background-repeat:no-repeat;
+}
+.web_com_custom_form input.form_error,
+.web_com_custom_form textarea.form_error {
+  border:1px dotted red !important;
+}
+.web_com_custom_form div.form_error{
+  color: #FF0000;
+	margin: 0px;
+	padding: 0px;
+}
+.form-result-ok,
+.form-result-err {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.form-result-err{
+    color:#FF0000;
+}
+.web_com_custom_form .form-element-label,
+.web_com_custom_form .personName-label,
+.web_com_custom_form .address-label{
+  display:block;
+}
+.web_com_custom_form select.form-element{
+  margin-top: 2px;
+}
+.web_com_custom_form select.form-element,
+.web_com_custom_form textarea.form-element, 
+.web_com_custom_form input.form-element[type='text'],
+.web_com_custom_form input.form-element[type='submit'],
+.web_com_custom_form button.form-element{
+	background-color:#FFFFFF;
+	background-repeat:repeat-x;
+	border:1px solid #B5B8CB;
+}
+.web_com_custom_form .form-element-wrapper {
+  padding: 5px 0px 10px 0px;
+  clear: both;
+}
+.web_com_custom_form .form-option-wrapper {
+  float: left;
+}
+.web_com_custom_form .form-option-wrapper .other-label {
+  float: left;
+  padding-left: 5px;
+}
+.web_com_custom_form .form-option-wrapper input,
+.web_com_custom_form .form-option-wrapper span,
+.web_com_custom_form .form-option-wrapper label {
+  display: inline;
+  white-space:nowrap;
+  padding-top: 2px;
+}
+.web_com_custom_form .form-option-wrapper td {
+  vertical-align: top;
+}
+.web_com_custom_form .form-option-wrapper .other-label span{
+  font-size: 8pt;
+  clear: both;
+}
+.web_com_custom_form .form-option-closer{
+  clear: both;
+}
+.web_com_custom_form .form-element-other-size{
+  width: 150px;
+}
+.web_com_custom_form .form-element[type="checkbox"],
+.web_com_custom_form .form-element[type="radio"] {
+  padding: 2px;
+  margin: 2px;
+}
+.radiocheckbox-wrapper-form-element-size-small {
+  width: 102px;
+  min-width: 102px; 
+}
+.radiocheckbox-wrapper-form-element-size-medium {
+  width: 204px;
+  min-width: 204px; 
+}
+.radiocheckbox-wrapper-form-element-size-large {
+  width: 428px;
+  min-width: 428px; 
+}
+.web_com_custom_form .form-element-size-small[type="text"],
+.web_com_custom_form table.form-element-size-small,
+.web_com_custom_form textarea.form-element-size-small,
+.web_com_custom_form select.form-element-size-small {
+  width: 102px;
+  min-width: 102px; 
+}
+.web_com_custom_form .form-element-size-medium[type="text"],
+.web_com_custom_form table.form-element-size-medium,
+.web_com_custom_form textarea.form-element-size-medium,
+.web_com_custom_form select.form-element-size-medium {
+  width: 204px;
+  min-width: 204px; 
+}
+.web_com_custom_form .form-element-size-large[type="text"],
+.web_com_custom_form table.form-element-size-large,
+.web_com_custom_form textarea.form-element-size-large,
+.web_com_custom_form select.form-element-size-large {
+  width: 428px;
+  min-width: 428px; 
+}
+.web_com_custom_form .form-element-size-full[type="text"],
+.web_com_custom_form .form-element-size-full[type="checkbox"],
+.web_com_custom_form .form-element-size-full[type="radio"],
+.web_com_custom_form textarea.form-element-size-full,
+.web_com_custom_form select.form-element-size-full {
+  width: 100%;
+}
+.web_com_custom_form input[type="submit"]{
+  width:auto;
+  overflow:visible;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.web_com_custom_form .form-element-wrapper#formClientName-id{
+  display:none;
+}

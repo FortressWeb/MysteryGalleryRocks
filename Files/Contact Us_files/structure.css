@@ -1,0 +1,50 @@
+/* Structure CSS shared among styles */
+
+/*reset margins, padding, list styling and default float*/
+.primary-webcomMenu, .primary-webcomMenu * {
+  cursor: pointer;  
+  list-style: none;
+  border:  0;
+  margin:  0;
+  padding: 0;
+}
+
+.primary-webcomMenuItem, .secondary-webcomMenuItem  { float: left; }  
+
+.primary-webcomMenu, .secondary-webcomMenu {float:left;}
+
+.primary-webcomMenu a, .secondary-webcomMenu a {
+  text-decoration: none;
+  display: block;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.primary-webcomMenu-middle, .secondary-webcomMenu-middle { float: left; overflow: visible;}
+.primary-webcomMenu-top-left, .secondary-webcomMenu-top-left { background-repeat: no-repeat; background-position: top left; float:left;}
+.primary-webcomMenu-top, .secondary-webcomMenu-top { background-repeat: repeat-x; background-position: top; float:left;}
+.primary-webcomMenu-top-right, .secondary-webcomMenu-top-right	{ background-repeat: no-repeat; background-position: top right; float:left;}
+.primary-webcomMenu-left, .secondary-webcomMenu-left { background-repeat: repeat-y; background-position: left; float:left;}
+.primary-webcomMenu-bottom-left, .secondary-webcomMenu-bottom-left { background-repeat: no-repeat; background-position: bottom left; float:left;}
+.primary-webcomMenu-bottom, .secondary-webcomMenu-bottom { background-repeat: repeat-x; background-position: bottom; float:left;}
+.primary-webcomMenu-bottom-right, .secondary-webcomMenu-bottom-right { background-repeat: no-repeat; background-position: bottom right; float:left;}
+.primary-webcomMenu-right, .secondary-webcomMenu-right { background-repeat: repeat-y; background-position: right; float:left;}
+.primary-webcomMenu-middle-left, .secondary-webcomMenu-middle-left { background-repeat: no-repeat; background-position: left center; float:left;}
+.primary-webcomMenu-middle-right, .secondary-webcomMenu-middle-right { background-repeat: no-repeat; background-position: right center; float:left;}  
+.primary-webcomMenu-middle-top, .secondary-webcomMenu-middle-top { background-repeat: no-repeat; background-position: top center; float:left;}
+.primary-webcomMenu-middle-bottom, .secondary-webcomMenu-middle-bottom { background-repeat: no-repeat; background-position: bottom center; float:left;}  
+
+
+.primary-webcomMenuItem-top-left, .secondary-webcomMenuItem-top-left { background-repeat: no-repeat; background-position: top left; }
+.primary-webcomMenuItem-top, .secondary-webcomMenuItem-top { background-repeat: repeat-x; background-position: top; }
+.primary-webcomMenuItem-top-right, .secondary-webcomMenuItem-top-right	{ background-repeat: no-repeat; background-position: top right; }
+.primary-webcomMenuItem-left, .secondary-webcomMenuItem-left { background-repeat: repeat-y; background-position: left; }
+.primary-webcomMenuItem-bottom-left, .secondary-webcomMenuItem-bottom-left { background-repeat: no-repeat; background-position: bottom left; }
+.primary-webcomMenuItem-bottom, .secondary-webcomMenuItem-bottom { background-repeat: repeat-x; background-position: bottom; }
+.primary-webcomMenuItem-bottom-right, .secondary-webcomMenuItem-bottom-right { background-repeat: no-repeat; background-position: bottom right; }
+.primary-webcomMenuItem-right, .secondary-webcomMenuItem-right { background-repeat: repeat-y; background-position: right; }
+.primary-webcomMenuItem-middle-left, .secondary-webcomMenuItem-middle-left { background-repeat: no-repeat; background-position: left center; }
+.primary-webcomMenuItem-middle-right, .secondary-webcomMenuItem-middle-right { background-repeat: no-repeat; background-position: right center; }  
+.primary-webcomMenuItem-middle-top, .secondary-webcomMenuItem-middle-top { background-repeat: no-repeat; background-position: top center;}
+.primary-webcomMenuItem-middle-bottom, .secondary-webcomMenuItem-middle-bottom { background-repeat: no-repeat; background-position: bottom center;}  
+.primary-webcomMenuItem-middle, .secondary-webcomMenuItem-middle { overflow: hidden; }  

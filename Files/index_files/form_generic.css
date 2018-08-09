@@ -1,0 +1,133 @@
+.web_com_custom_form table.personName-large {
+  width: 428px;
+  max-width: 428px;
+}
+.web_com_custom_form table.personName-medium {
+  width: 204px;
+  max-width: 204px;
+}
+.web_com_custom_form table.personName-small {
+  width: 102px;
+  max-width: 102px;
+}
+.web_com_custom_form table td{
+  vertical-align:top;
+}
+.web_com_custom_form table td.FirstName,
+.web_com_custom_form table td.MiddleInitial {
+  padding-right: 5px;
+}
+.web_com_custom_form table td.LastName,
+.web_com_custom_form table td.MiddleInitial,
+.web_com_custom_form table td.Suffix {
+  padding-left: 5px;
+}
+.web_com_custom_form table td.FirstName, 
+.web_com_custom_form table td.LastName {
+  width: 40%;
+}
+.web_com_custom_form table td.FirstName input, 
+.web_com_custom_form table td.LastName input,
+.web_com_custom_form table td.MiddleInitial input,
+.web_com_custom_form table td.Suffix input {
+  /* margin-top: 5px; */
+}
+.web_com_custom_form table td.MiddleInitial {
+  width: 6%;
+}
+.web_com_custom_form table td.Suffix {
+  width: 14%;
+}
+.web_com_custom_form .address-large {
+  width: 428px;
+  max-width: 428px;
+}
+.web_com_custom_form .address-medium {
+  width: 204px;
+  max-width: 204px;
+}
+.web_com_custom_form .address-small {
+  width: 102px;
+  max-width: 102px;
+}
+.web_com_custom_form table td.addressLine {
+  width: 80%;
+}
+.web_com_custom_form .address-large td.addressLine {
+  max-width: 342px;
+}
+.web_com_custom_form .address-medium td.addressLine {
+  max-width: 164px;
+}
+.web_com_custom_form .address-small td.addressLine {
+  max-width: 82px;
+}
+.web_com_custom_form table td.city,
+.web_com_custom_form table td.stateIntl,
+.web_com_custom_form table td.postal,
+.web_com_custom_form table td.country {
+  width: 50%;
+}
+.web_com_custom_form .address-large td.city,
+.web_com_custom_form .address-large td.stateIntl,
+.web_com_custom_form .address-large td.postal,
+.web_com_custom_form .address-large td.country {
+  max-width: 214px;
+}
+.web_com_custom_form .address-medium td.city,
+.web_com_custom_form .address-medium td.stateIntl,
+.web_com_custom_form .address-medium td.postal,
+.web_com_custom_form .address-medium td.country {
+  max-width: 102px;
+}
+.web_com_custom_form .address-small td.city,
+.web_com_custom_form .address-small td.stateIntl,
+.web_com_custom_form .address-small td.postal,
+.web_com_custom_form .address-small td.country {
+  max-width: 51px;
+}
+.web_com_custom_form table td.state {
+  width: 10%;
+  min-width: 40px;
+}
+.web_com_custom_form .address-large td.state {
+  max-width: 43px;
+}
+.web_com_custom_form .address-medium td.state {
+  max-width: 20px;
+}
+.web_com_custom_form .address-small td.state {
+  max-width: 10px;
+}
+.web_com_custom_form table td.zip {
+  width: 20%;
+}
+.web_com_custom_form .address-large td.zip {
+  width: 86px;
+}
+.web_com_custom_form .address-medium td.zip {
+  width: 40px;
+}
+.web_com_custom_form .address-small td.zip {
+  width: 20px;
+}
+.web_com_custom_form table td.city,
+.web_com_custom_form table td.state,
+.web_com_custom_form table td.postal {
+  padding-right: 5px;
+}
+.web_com_custom_form table td.state,
+.web_com_custom_form table td.stateIntl,
+.web_com_custom_form table td.country,
+.web_com_custom_form table td.zip {
+  padding-left: 5px;
+}
+.web_com_custom_form table td.addressLine input,
+.web_com_custom_form table td.city input,
+.web_com_custom_form table td.stateIntl input,
+.web_com_custom_form table td.postal input,
+.web_com_custom_form table td.country select,
+.web_com_custom_form table td.state select, 
+.web_com_custom_form table td.zip input {
+  margin-top: 5px;
+}
